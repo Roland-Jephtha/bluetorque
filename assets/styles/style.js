@@ -525,3 +525,52 @@
         });
 
         console.log('Blue Torque Engineering Website - Enhanced with premium animations and interactions');
+
+
+
+
+           document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contactForm');
+            
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Simple form validation
+                let isValid = true;
+                const inputs = form.querySelectorAll('input, textarea');
+                
+                inputs.forEach(input => {
+                    if (!input.value.trim()) {
+                        isValid = false;
+                        input.style.borderColor = '#dc3545';
+                    } else {
+                        input.style.borderColor = '#28a745';
+                    }
+                });
+                
+                if (isValid) {
+                    // Here you would typically send the form data to a server
+                    alert('Thank you for your message! We will get back to you soon.');
+                    form.reset();
+                    
+                    // Reset border colors
+                    inputs.forEach(input => {
+                        input.style.borderColor = '#e1e5eb';
+                    });
+                } else {
+                    alert('Please fill in all required fields.');
+                }
+            });
+            
+            // Add real-time validation
+            const inputs = form.querySelectorAll('input, textarea');
+            inputs.forEach(input => {
+                input.addEventListener('input', function() {
+                    if (this.value.trim()) {
+                        this.style.borderColor = '#28a745';
+                    } else {
+                        this.style.borderColor = '#dc3545';
+                    }
+                });
+            });
+        });

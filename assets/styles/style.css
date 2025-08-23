@@ -1489,3 +1489,171 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
+
+
+
+
+
+
+
+
+
+     * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+    
+        
+        .contact-container {
+            max-width: 1200px;
+            width: 100%;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .contact-header {
+            background: linear-gradient(135deg, #0d3b66 0%, #1e6091 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .contact-header h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+        
+        .contact-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .contact-form {
+            padding: 40px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+            position: relative;
+        }
+        
+        .form-control {
+            height: 60px;
+            padding: 0 20px;
+            border: 2px solid #e1e5eb;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s;
+            box-shadow: none;
+        }
+        
+        .form-control:focus {
+            border-color: #1e6091;
+            box-shadow: 0 0 0 3px rgba(30, 96, 145, 0.2);
+        }
+        
+        textarea.form-control {
+            height: auto;
+            padding: 15px 20px;
+            resize: none;
+        }
+        
+        .form-label {
+            position: absolute;
+            left: 20px;
+            top: 18px;
+            color: #6c757d;
+            transition: all 0.3s;
+            pointer-events: none;
+            background: white;
+            padding: 0 8px;
+        }
+        
+        .form-control:focus + .form-label,
+        .form-control:not(:placeholder-shown) + .form-label {
+            top: -10px;
+            font-size: 14px;
+            color: #1e6091;
+            font-weight: 500;
+        }
+        
+        .btn-send {
+            background: linear-gradient(135deg, #0d3b66 0%, #1e6091 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.3s;
+            display: block;
+            margin: 0 auto;
+            min-width: 200px;
+        }
+        
+        .btn-send:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(13, 59, 102, 0.2);
+            background: linear-gradient(135deg, #0c355c 0%, #1a5785 100%);
+        }
+        
+        .form-icon {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+            font-size: 18px;
+        }
+        
+        textarea + .form-icon {
+            top: 25px;
+            transform: none;
+        }
+        
+        .row {
+            margin: 0 -15px;
+        }
+        
+        .col-lg-6, .col-lg-12 {
+            padding: 0 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .contact-form {
+                padding: 25px;
+            }
+            
+            .contact-header {
+                padding: 30px 20px;
+            }
+            
+            .contact-header h2 {
+                font-size: 2rem;
+            }
+        }
+
+
+
+        .contact-form {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .contact-header {
+            /* background: white; */
+            border-radius: 7px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+

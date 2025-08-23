@@ -9,6 +9,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="assets/styles/style.css" rel="stylesheet">
+
+
+       <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <!-- Boxicons CSS -->
+        <link rel="stylesheet" href="assets/css/boxicons.min.css">
+        <!-- Meanmenu CSS -->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!-- Nice Select CSS -->
+        <link rel="stylesheet" href="assets/css/nice-select.min.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <!-- Theme Dark CSS -->
+        <link rel="stylesheet" href="assets/css/theme-dark.css">
+
     
     
     
@@ -16,16 +33,23 @@
 
 </head>
 <body>
-    <!-- Loading Overlay -->
-    <div class="loading-overlay" id="loadingOverlay">
-        <div class="loader"></div>
-    </div>
+    
 
-    <!-- Progress Bar -->
-    <div class="progress-bar-container">
-        <div class="progress-bar" id="progressBar"></div>
-    </div>
-
+       <!-- Preloader -->
+        <div class="preloader">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="pre-img">
+                <span class="text-primary">BLUE</span><span class="text-light">TORQUE</span> 
+                    </div>
+                    <div class="spinner">
+                        <div class="circle1"></div>
+                        <div class="circle2"></div>
+                        <div class="circle3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- Enhanced Navigation -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -38,22 +62,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                    <a href="tel:+2348034567890" class="btn btn-primary" style="padding-top:1em; padding:1em; ">  <i class="fas fa-phone me-2"></i>
+                    <a href="tel:+2348033661580" class="btn btn-primary" style="padding-top:1em; padding:1em; ">  <i class="fas fa-phone me-2"></i>
                                 Call Us</a>
                     </li>
                 </ul>
@@ -167,7 +191,7 @@
 
 
         <section class="cta-section section stats-section">
-    <div class="container">
+            <div class="container">
             <div class="row">
                 <div class="col-md-3 col-6" data-aos="fade-up" data-aos-duration="800">
                     <div class="stat-item">
@@ -442,53 +466,7 @@
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section class="team-section section">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up" data-aos-duration="800">
-                <div class="section-subtitle">Our Team</div>
-                <h2 class="section-title">Meet Our Engineering Experts</h2>
-                <p class="section-description">
-                    Our experienced team of engineers and technical professionals are committed to delivering exceptional results.
-                </p>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800">
-                    <div class="team-member">
-                        <div class="team-avatar">
-                            <img src="./assets/img/home3/home1.png" alt="Chief Engineer">
-                        </div>
-                        <h4>Engr. Michael Adebayo</h4>
-                        <p class="text-muted mb-3">Chief Engineering Officer</p>
-                        <p class="small">Over 20 years of experience in structural and mechanical engineering with expertise in large-scale industrial projects.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                    <div class="team-member">
-                        <div class="team-avatar">
-                            <img src="./assets/img/home3/home1.png" alt="Project Manager">
-                        </div>
-                        <h4>Sarah Johnson</h4>
-                        <p class="text-muted mb-3">Senior Project Manager</p>
-                        <p class="small">Certified PMP with extensive experience managing complex engineering projects across oil & gas and construction sectors.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-                    <div class="team-member">
-                        <div class="team-avatar">
-                            <img src="./assets/img/home3/home1.png" alt="Safety Manager">
-                        </div>
-                        <h4>Engr. David Okonkwo</h4>
-                        <p class="text-muted mb-3">Safety & Quality Manager</p>
-                        <p class="small">Specialized in HSE management with certifications in international safety standards and quality assurance protocols.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  
 
     <!-- CTA Section -->
     <section class="cta-section section">
@@ -500,7 +478,7 @@
                 </div>
                 <div class="col-lg-4 text-lg-end" data-aos="fade-left" data-aos-duration="800">
                     <a href="#contact" class="btn btn-outline-light me-3">Get Quote</a>
-                    <a href="tel:+2348034567890" class="btn btn-primary">Call Now</a>
+                    <a href="tel:+2348033661580" class="btn btn-primary">Call Now</a>
                 </div>
             </div>
         </div>
@@ -528,11 +506,11 @@
                         <div class="footer-links">
                             <h5>Quick Links</h5>
                             <ul>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#services">Services</a></li>
-                                <li><a href="#projects">Projects</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -555,7 +533,7 @@
                             <h5>Contact Info</h5>
                             <ul>
                                 <li><i class="fas fa-map-marker-alt me-2 text-primary"></i> 12 Industrial Avenue, Ikeja, Lagos</li>
-                                <li><i class="fas fa-phone me-2 text-primary"></i> <a href="tel:+2348034567890">+234 803 456 7890</a></li>
+                                <li><i class="fas fa-phone me-2 text-primary"></i> <a href="tel:+2348033661580">+234 8033 661 580</a></li>
                                 <li><i class="fas fa-envelope me-2 text-primary"></i> <a href="mailto:info@bluetorque.com">info@bluetorque.com</a></li>
                                 <li><i class="fas fa-clock me-2 text-primary"></i> Mon - Fri: 8AM - 5PM</li>
                             </ul>
@@ -575,6 +553,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/styles/style.js"></script>
+
+            <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
+        <!-- Bootstrap Bundle Min JS -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- Owl Carousel JS -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!-- Meanmenu JS -->
+        <script src="assets/js/meanmenu.js"></script>
+        <!-- Wow JS -->
+        <script src="assets/js/wow.min.js"></script>
+        <!-- Nice Select JS -->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!-- Ajaxchimp Min JS -->
+        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+        <!-- Form Validator Min JS -->
+        <script src="assets/js/form-validator.min.js"></script>
+        <!-- Contact Form JS -->
+        <script src="assets/js/contact-form-script.js"></script>
+        <!-- Custom JS -->
+        <script src="assets/js/custom.js"></script>
 
 </body>
 </html>
