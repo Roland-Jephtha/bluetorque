@@ -39,6 +39,14 @@
             color: white;
         }
 
+        .project-card p {
+            color: white;
+        }
+
+        .project-card h4 {
+            color: white;
+        }
+
 
 
         body.loaded {
